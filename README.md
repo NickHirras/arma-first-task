@@ -22,3 +22,13 @@ TASKS
    - Add a form to the page, with input field for NAME.
 
    - Add a route for POST to receive the field, displaying the submitted value on the page as "Hello {NAME}", and populating that value into the input field.
+
+
+HOW TO RUN
+----------
+
+Start NODE server with `node app.js`
+
+Run tests with the script `run_tests.sh`. This will run eslint on the server and client-side javascript files. Will also launch the selenium test.  (Make sure node is started first).
+
+Access the site at `http://localhost:3000/`
