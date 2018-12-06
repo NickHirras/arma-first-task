@@ -1,0 +1,11 @@
+Tues
+====
+
+1 hrs - review node.js starting guide
+
+
+Wed
+===
+
+0.5 hrs - reviewing task and writing plan
+0.5 hrs - Install required software (brew, node)
