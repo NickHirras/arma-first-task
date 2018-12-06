@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>Arma First Task</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>{{ header }}</h1>
+      <p>{{ body }}</p>
+      <form method="POST" id="form">
+        <div>
+          <label>Title: <br/>
+          <input type="text" name="title" value=""/></label>
+        </div>
+        <div>
+          <label>Header: <br/>
+          <input type="text" name="header" value=""/></label>
+        </div>
+        <div>
+          <label>Body: <br/>
+          <textarea name="body"></textarea></label>
+        </div>
+        <div>
+           <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div><!-- /app -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="client.js"></script>
+  </body>
+</html>
+
