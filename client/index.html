@@ -110,8 +110,8 @@
       </div>
 
       <div class="jumbotron">
-        <h1>{{ header }}</h1>
-        <p class="lead">{{ body }}</p>
+        <h1 id="headerFromPost">{{ header }}</h1>
+        <p class="lead" id="bodyFromPost">{{ body }}</p>
       </div>
 
       <div class="row marketing">
@@ -129,7 +129,7 @@
               <label for="body">Body</label>
               <textarea id="body" class="form-control" name="body"></textarea></label>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button id="submit" type="submit" class="btn btn-primary">Submit</button>
           </form>
         </div>
       </div>

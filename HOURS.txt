@@ -22,3 +22,7 @@ Thur
         to server using $.post and capture response. Passed response values
         to vue app to be displayed on page.
         Added bootstrap 4 CSS and some basic styling.
+
+2 hrs - added selenium. Wrote test scripts to test input values into expected
+        fields, submit to server, and check for expected values populating back
+        into DOM by vue.
