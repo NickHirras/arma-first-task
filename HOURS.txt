@@ -9,3 +9,16 @@ Wed
 
 0.5 hrs - reviewing task and writing plan
 0.5 hrs - Install required software (brew, node)
+
+
+Thur
+====
+
+1 hrs - built basic node app, got routing working.
+        Added static pages for client index.html and css / js
+        Added POST / route to capture form values from client and return as JSON.
+
+3 hrs - added vue.js to project, used jquery to capture form submit, POST
+        to server using $.post and capture response. Passed response values
+        to vue app to be displayed on page.
+        Added bootstrap 4 CSS and some basic styling.
