@@ -8,6 +8,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
 app.post('/', function (req, res) {
+   console.log('Received POST request');
+
    var title = req.body.title;
    var header = req.body.header;
    var body = req.body.body;
@@ -16,10 +18,10 @@ app.post('/', function (req, res) {
    response.title = title.toUpperCase();
    response.header = header.toUpperCase();
    response.body = body.toUpperCase();
- 
+
+   console.log('Responding with: ' + JSON.stringify(response));
+
    res.send(response);
 });
 
-app.listen(port, () => console.log(`Server started on port: ${port}!`));
-
-
+app.listen(port, () => console.log(`Server started on port: ${port}`));
